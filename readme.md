@@ -1,4 +1,4 @@
-# alex-rorybot: Catch Shopify style guide violations
+# alex-rorybot: Catch content style guide violations
 
 ## Installing
 
