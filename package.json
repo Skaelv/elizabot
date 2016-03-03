@@ -57,7 +57,7 @@
     "remark-retext": "^1.1.0",
     "retext": "^1.0.0",
     "retext-english": "^1.0.0",
-    "retext-equality": "https://github.com/jeremyhansonfinger/retext-rorybot",
+    "retext-rorybot": "https://github.com/jeremyhansonfinger/retext-rorybot",
     "retext-profanities": "^1.0.0",
     "to-vfile": "^1.0.0",
     "update-notifier": "^0.6.0",
