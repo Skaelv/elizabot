@@ -8,7 +8,7 @@ Make sure you have [node.js](https://nodejs.org/en/download/) installed, then ru
 $ sudo npm install alex-rorybot --global jeremyhansonfinger/alex-rorybot
 ```
 
-## Using the Command Line
+## Using the command line
 
 Say `example.md` contains the following text:
 
@@ -32,10 +32,10 @@ example.md
   1:57-1:64  warning  `Shopify point of sale` violates Shopify style: 'incorrect branded name.' Use `Shopify POS`.   Shopify-point of sale
 
 ⚠ 4 warnings
+```
 
 When no input files are given to **alex**, it searches for markdown and text files in the current directory.
 
-```
 If you want to search all Ruby files within your current directory, run:
 
 ```sh
