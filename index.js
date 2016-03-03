@@ -21,8 +21,8 @@ var remark = require('remark');
 var retext = require('retext');
 var control = require('remark-message-control');
 var english = require('retext-english');
-var equality = require('retext-equality');
-var profanities = require('retext-profanities');
+var rorybot = require('retext-rorybot');
+// var profanities = require('retext-profanities');
 var remark2retext = require('remark-retext');
 var sort = require('vfile-sort');
 
@@ -30,7 +30,7 @@ var sort = require('vfile-sort');
  * Processor.
  */
 
-var text = retext().use(english).use(equality).use(profanities);
+var text = retext().use(english).use(rorybot);
 
 /**
  * alex’s core.
@@ -75,8 +75,7 @@ function alex(value, allow) {
         'name': 'alex',
         'disable': allow,
         'source': [
-            'retext-equality',
-            'retext-profanities'
+            'retext-rorybot',
         ]
     }));
 }
