@@ -41,7 +41,6 @@ If you want to search all Ruby files within your current directory, run:
 ```sh
 $ alex *.rb
 ```
-s
 If you want to write the results to a file, use the `tee` command.
 
 ```sh
