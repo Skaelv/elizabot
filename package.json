@@ -6,32 +6,9 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeremyhansonfinger/alex-rorybot"
+    "url": "https://github.com/Shopify/rory"
   },
-  "bugs": "https://github.com/jeremyhansonfinger/alex-rorybot/issues",
-  "homepage": "http://alexjs.com",
-  "alex": {
-    "allow": ["butt"]
-  },
-  "keywords": [
-    "cli-app",
-    "cli",
-    "bin",
-    "alex",
-    "equal",
-    "race",
-    "religion",
-    "sex",
-    "orientation",
-    "identity",
-    "gender",
-    "sensitive",
-    "insensitive",
-    "neutral",
-    "writing",
-    "language",
-    "english"
-  ],
+  "bugs": "https://github.com/Shopify/rory/issues",
   "author": {
     "name": "Titus Wormer",
     "email": "tituswormer@gmail.com",
@@ -57,7 +34,7 @@
     "remark-retext": "^1.1.0",
     "retext": "^1.0.0",
     "retext-english": "^1.0.0",
-    "retext-rorybot": "https://github.com/jeremyhansonfinger/retext-rorybot",
+    "retext-styleguide": "git+ssh://git@github.com:Shopify/retext-styleguide.git",
     "retext-profanities": "^1.0.0",
     "to-vfile": "^1.0.0",
     "update-notifier": "^0.6.0",
