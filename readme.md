@@ -71,7 +71,7 @@ Run `$ rory --help` for more information. You can also check out Titus Wormer's 
 
 ### Adding rules
 
-See the readme in [retext-styleguide](https://github.com/Shopify/retext-styleguide), as the ruleset is in that repository.
+See the readme in [retext-styleguide](https://github.com/Shopify/retext-styleguide).
 
 ### Making changes to rory
 
