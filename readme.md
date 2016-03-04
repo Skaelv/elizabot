@@ -12,7 +12,7 @@ You can run **rory** from the command line, or install a [plugin](https://github
 
 1. Make sure you have [**node.js**](https://nodejs.org/en/download/) installed.
 2. Open a Terminal window.
-3. Run ```$ sudo npm install --global git+ssh://git@github.com:Shopify/rory``` to install **rory**, as well as installing **retext-styleguide** as a module within **rory**.
+3. Run ```$ sudo npm install --global git+ssh://git@github.com:Shopify/rory``` to install **rory**, which will also install **retext-styleguide** as a module within **rory**.
 
 ## Using the Atom linter
 
