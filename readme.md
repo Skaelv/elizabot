@@ -1,5 +1,9 @@
 # Rory: Catch content style guide violations
 
+Rory finds style errors by comparing input text against a set of incorrect terms in the [retext-styleguide](https://github.com/Shopify/retext-styleguide) repo. Rory explains why your word choices are incorrect according to the Shopify [content](https://styleguide.myshopify.com/content/) and [documentation](https://vault.shopify.com/Documentation/Documentation-Style-Guide) style guides, and suggests alternatives.
+
+You can run rory from the command line, or install a [plugin](https://github.com/Shopify/linter-rory) for the text editor [Atom](https://atom.io/) that checks your text as you type.
+
 ![Rory logo](rorylogo.png)
 
 ## Installing
@@ -10,9 +14,11 @@ Make sure you have [node.js](https://nodejs.org/en/download/) installed, then ru
 $ sudo npm install --global git+ssh://git@github.com:Shopify/rory
 ```
 
+That will install rory as well as retext-styleguide as a module within rory.
+
 ## Using the Atom linter
 
-See the readme for [linter-rory](https://github.com/Shopify/linter-rory).
+Install rory, then see the readme for [linter-rory](https://github.com/Shopify/linter-rory).
 
 ## Using the command line
 
@@ -61,4 +67,16 @@ $ echo "Login to the Shopify Manual to customise colours in the Shopify point of
 
 Run `$ rory --help` for more information. You can also check out Titus Wormer's [original alex.js application](https://github.com/wooorm/alex) for info about the API, which we haven't looked into yet.
 
+## Contributing
 
+### Adding rules
+
+See the readme in [retext-styleguide](https://github.com/Shopify/retext-styleguide), as the ruleset is in that repository.
+
+### Making changes to rory
+
+Create an issue or pull request in this repo.
+
+### Making changes to the Atom linter
+
+See the readme for [linter-rory](https://github.com/Shopify/linter-rory).
