@@ -20,7 +20,7 @@ Install **rory**, then see the readme for [**linter-rory**](https://github.com/S
 
 ## Using the command line
 
-You can run rory from the command line for extra functionality.
+You can run **rory** from the command line for extra functionality.
 
 ### Check a specific file
 
@@ -48,13 +48,13 @@ example.md
 ⚠ 4 warnings
 ```
 
-You can run rory on any text file type, including Ruby.
+You can run **rory** on any text file type, including Ruby.
 
 ### Check a directory
 
 When no input files are given to **rory**, it searches for markdown and text files in the current directory.
 
-If you want to search other types of files, you can use wildcards to create your rory command.
+If you want to search other types of files, you can use wildcards to create your **rory** command.
 
 To search all Ruby files within your current directory, for example, run:
 
@@ -63,7 +63,7 @@ $ rory *.rb
 ```
 ### Write rory messages to a file
 
-If you want to write the results of a rory check to a file, use the `tee` command.
+If you want to write the results of a **rory** check to a file, use the `tee` command.
 
 ```sh
 $ rory *.rb | tee output.txt
