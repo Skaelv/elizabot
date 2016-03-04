@@ -2,9 +2,11 @@
 
 **Rory** finds style errors by comparing input text against a set of incorrect terms in the [retext-styleguide](https://github.com/Shopify/retext-styleguide) repo. **Rory** explains why your word choices are incorrect according to the Shopify [content](https://styleguide.myshopify.com/content/) and [documentation](https://vault.shopify.com/Documentation/Documentation-Style-Guide) style guides (for example, "avoid anthropomorphism"), and suggests alternatives.
 
+![Rory logo](rorylogo.png)
+
 You can run **rory** from the command line, or install a [plugin](https://github.com/Shopify/linter-rory) for the text editor [**Atom**](https://atom.io/) that checks your text as you type.
 
-![Rory logo](rorylogo.png)
+![Rory command line screenshot](rory-cmd-screenshot.png)
 
 ## Installing
 
