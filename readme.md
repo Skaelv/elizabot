@@ -14,7 +14,7 @@ Make sure you have [node.js](https://nodejs.org/en/download/) installed, then ru
 $ sudo npm install --global git+ssh://git@github.com:Shopify/rory
 ```
 
-That will install rory as well as retext-styleguide as a module within rory.
+That will install rory, as well as installing retext-styleguide as a module within rory.
 
 ## Using the Atom linter
 
