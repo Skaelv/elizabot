@@ -4,7 +4,7 @@
 
 ![Rory logo](rorylogo.png)
 
-You can run **rory** from the command line, or install a [plugin](https://github.com/Shopify/linter-rory) for the text editor [**Atom**](https://atom.io/) that checks your text as you type.
+You can run **rory** from the command line, or install plugins for the text editors [Atom](https://github.com/Shopify/linter-rory) and [Sublime Text](https://github.com/Shopify/sublimelinter-rory) that check your text as you type.
 
 ![Rory command line screenshot](rory-cmd-screenshot.jpg)
 
@@ -17,6 +17,10 @@ You can run **rory** from the command line, or install a [plugin](https://github
 ## Using the Atom linter
 
 Install **rory**, then see the readme for [**linter-rory**](https://github.com/Shopify/linter-rory).
+
+## Using the Sublime Text linter
+
+Install **rory**, then see the readme for [**sublimelinter-rory**](https://github.com/Shopify/sublimelinter-rory).
 
 ## Using the command line
 
@@ -94,3 +98,7 @@ Create an issue or pull request in this repo.
 ### Making changes to the Atom linter
 
 See the readme for [**linter-rory**](https://github.com/Shopify/linter-rory).
+
+### Making changes to the Sublime Text linter
+
+See the readme for [**sublimelinter-rory**](https://github.com/Shopify/sublimelinter-rory).
