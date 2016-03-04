@@ -1,4 +1,4 @@
-# alex-rorybot: Catch content style guide violations
+# Rory: Catch content style guide violations
 
 ## Installing
 
@@ -16,10 +16,10 @@ Say `example.md` contains the following text:
 Login to the Shopify Manual to customise colours in the Shopify point of sale application. 
 ```
 
-Run **alex** on `example.md`:
+Run **rory** on `example.md`:
 
 ```sh
-$ alex example.md
+$ rory example.md
 ```
 
 This yields:
@@ -34,25 +34,25 @@ example.md
 ⚠ 4 warnings
 ```
 
-When no input files are given to **alex**, it searches for markdown and text files in the current directory.
+When no input files are given to **rory**, it searches for markdown and text files in the current directory.
 
 If you want to search all Ruby files within your current directory, run:
 
 ```sh
-$ alex *.rb
+$ rory *.rb
 ```
 If you want to write the results to a file, use the `tee` command.
 
 ```sh
-$ alex *.rb | tee output.txt
+$ rory *.rb | tee output.txt
 ```
 
 If you want to check a string within your terminal:
 
 ```sh
-$ echo "Login to the Shopify Manual to customise colours in the Shopify point of sale application." | alex
+$ echo "Login to the Shopify Manual to customise colours in the Shopify point of sale application." | rory
 ```
 
-Run `$ alex --help` for more information. You can also check out Titus Wormer's [original alex.js application](https://github.com/wooorm/alex) for info about the API, which we haven't looked into yet.
+Run `$ rory --help` for more information. You can also check out Titus Wormer's [original alex.js application](https://github.com/wooorm/alex) for info about the API, which we haven't looked into yet.
 
 
