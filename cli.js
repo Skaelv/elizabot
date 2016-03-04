@@ -96,7 +96,7 @@ var cli = meow({
         'files in the current directory, `doc`, and `docs`.',
         '',
         'Examples',
-        '  $ echo "His network looks good" | alex',
+        '  $ echo "His network looks good" | rory',
         '  $ rory *.md !example.md',
         '  $ rory'
     ]
