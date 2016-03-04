@@ -10,6 +10,10 @@ Make sure you have [node.js](https://nodejs.org/en/download/) installed, then ru
 $ sudo npm install --global git+ssh://git@github.com:Shopify/rory
 ```
 
+## Using Atom linter
+
+See the readme for [linter-rory](https://github.com/Shopify/linter-rory).
+
 ## Using the command line
 
 Say `example.md` contains the following text:
