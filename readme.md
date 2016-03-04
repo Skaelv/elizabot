@@ -46,7 +46,7 @@ example.md
 ⚠ 4 warnings
 ```
 
-When no input files are given to **rory**, it searches for markdown and text files in the current directory.
+When no input files are given to rory, it searches for markdown and text files in the current directory.
 
 If you want to search all Ruby files within your current directory, run:
 
