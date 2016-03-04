@@ -1,5 +1,7 @@
 # Rory: Catch content style guide violations
 
+![Rory logo](rorylogo.png)
+
 ## Installing
 
 Make sure you have [node.js](https://nodejs.org/en/download/) installed, then run:
