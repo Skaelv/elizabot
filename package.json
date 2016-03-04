@@ -34,7 +34,7 @@
     "remark-retext": "^1.1.0",
     "retext": "^1.0.0",
     "retext-english": "^1.0.0",
-    "retext-styleguide": "git+ssh://git@github.com:Shopify/retext-styleguide.git",
+    "retext-styleguide": "https://shopify-dep:ca9a7c997732066f52bddc4b53a8c916eec73eae@github.com:Shopify/retext-styleguide.git",
     "retext-profanities": "^1.0.0",
     "to-vfile": "^1.0.0",
     "update-notifier": "^0.6.0",
