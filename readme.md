@@ -6,7 +6,7 @@
 
 You can run **rory** from the command line, or install a [plugin](https://github.com/Shopify/linter-rory) for the text editor [**Atom**](https://atom.io/) that checks your text as you type.
 
-![Rory command line screenshot](rory-cmd-screenshot.png)
+![Rory command line screenshot](rory-cmd-screenshot.jpg)
 
 ## Installing
 
