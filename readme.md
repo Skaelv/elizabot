@@ -27,7 +27,7 @@ You can run rory from the command line for extra functionality.
 Say `example.md` contains the following text:
 
 ```md
-Login to the Shopify Manual to customise colours in the Shopify point of sale application. 
+Login to the Shopify Manual to customise the Shopify point of sale application. 
 ```
 
 Run **rory** on `example.md`:
