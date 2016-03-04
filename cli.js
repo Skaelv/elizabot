@@ -84,12 +84,12 @@ notifier({
 
 var cli = meow({
     'help': [
-        'Usage:  alex [<file> | <dir> ...] [-w, --why] [-t, --text]',
+        'Usage:  rory [<file> | <dir> ...] [-w, --why] [-t, --text]',
         '',
         'Options:',
         '',
         '  -w, --why    output more info regarding why things might be ' +
-        'offensive',
+        'incorrect',
         '  -t, --text   treat input as plain-text (not markdown)',
         '',
         'When no input files are given, searches for markdown and text',
@@ -97,8 +97,8 @@ var cli = meow({
         '',
         'Examples',
         '  $ echo "His network looks good" | alex',
-        '  $ alex *.md !example.md',
-        '  $ alex'
+        '  $ rory *.md !example.md',
+        '  $ rory'
     ]
 });
 
