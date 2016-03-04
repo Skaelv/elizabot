@@ -5,7 +5,7 @@
 Make sure you have [node.js](https://nodejs.org/en/download/) installed, then run:
 
 ```sh
-$ sudo npm install alex-rorybot --global jeremyhansonfinger/alex-rorybot
+$ sudo npm install --global git+ssh://git@github.com:Shopify/rory
 ```
 
 ## Using the command line
