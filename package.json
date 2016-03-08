@@ -36,6 +36,7 @@
     "retext-english": "^1.0.0",
     "retext-styleguide": "git+ssh://git@github.com:Shopify/retext-styleguide.git",
     "retext-usage": "git+ssh://git@github.com:admhlt/retext-usage.git",
+    "retext-simplify": "^1.1.0",
     "retext-equality": "^2.0.0",
     "retext-profanities": "^1.0.0",
     "to-vfile": "^1.0.0",

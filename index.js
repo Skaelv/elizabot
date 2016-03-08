@@ -23,16 +23,66 @@ var control = require('remark-message-control');
 var english = require('retext-english');
 var styleguide = require('retext-styleguide');
 var usage = require('retext-usage');
+var simplify = require('retext-simplify');
 var equality = require('retext-equality');
 var profanities = require('retext-profanities');
 var remark2retext = require('remark-retext');
 var sort = require('vfile-sort');
 
 /*
+ * Overrides.
+ */
+
+var simplifyConfig = {
+    ignore: [
+        'address', // customer info
+        'request', // technical
+        'interface', // technical
+        'render', // technical
+        'forward', // technical
+        'maximum', // technical
+        'minimum', // technical
+        'type', // technical
+        'initial', // technical
+        'selection', // technical
+        'contains', // technical
+        'implement', // technical
+        'parameters', // technical
+        'function', // technical
+        'option', // technical
+        'effect', // technical
+        'submit', // technical
+        'additional', // sales
+        'might', // may does not have the same connotation
+        'multiple', // many is not equivalent
+        'equivalent', // equal does not have the same connotation
+        'combined', // no good alternative
+        'provide', // not complicated
+        'delete', // frequent UI text
+        'it is', // no good alternative
+        'there are', // no good alternative
+        'require' // technical
+    ]
+};
+
+var equalityConfig = {
+   ignore: [
+       'disabled', // technical
+       'host' // technical
+   ]
+};
+
+/*
  * Processor.
  */
 
-var text = retext().use(english).use(styleguide).use(usage).use(equality).use(profanities);
+var text = retext()
+    .use(english)
+    .use(styleguide)
+    .use(usage)
+    .use(simplify, simplifyConfig)
+    .use(equality, equalityConfig)
+    .use(profanities);
 
 /**
  * alex’s core.
