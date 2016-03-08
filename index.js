@@ -36,6 +36,12 @@ var sort = require('vfile-sort');
 var simplifyConfig = {
     ignore: [
         'address', // customer info
+        'adjustment', // change does not have the same connotation
+        'approximate', // about does not have the same connotation
+        'authorise', // technical
+        'authorize', // technical
+        'previous', // frequent UI text
+        'purchase', // common commerce term
         'request', // technical
         'interface', // technical
         'render', // technical
@@ -60,6 +66,7 @@ var simplifyConfig = {
         'provide', // not complicated
         'delete', // frequent UI text
         'it is', // no good alternative
+        'there is', // no good alternative
         'there are', // no good alternative
         'require' // technical
     ]
@@ -72,6 +79,12 @@ var equalityConfig = {
    ]
 };
 
+var profanitiesConfig = {
+   ignore: [
+       'deposit', // money-related
+       ]
+};
+
 /*
  * Processor.
  */
@@ -82,7 +95,7 @@ var text = retext()
     .use(usage)
     .use(simplify, simplifyConfig)
     .use(equality, equalityConfig)
-    .use(profanities);
+    .use(profanities, profanitiesConfig);
 
 /**
  * alex’s core.
