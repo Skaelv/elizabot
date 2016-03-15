@@ -1,11 +1,10 @@
 /**
- * @author Titus Wormer
+ * @author Adam Hollett and Jeremy Hanson-Finger
  * @copyright 2015 Titus Wormer
- * @license MIT
- * @module alex
+ * @license ISC
+ * @module rorybot
  * @fileoverview
- *   alex checks your (or someone else’s) writing for possible
- *   inconsiderate wording.
+ *   Catch writing that doesn't follow style guide rules
  */
 
 'use strict';
