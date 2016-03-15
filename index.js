@@ -1,6 +1,6 @@
 /**
  * @author Adam Hollett and Jeremy Hanson-Finger
- * @copyright 2015 Titus Wormer
+ * @copyright 2016 Shopify
  * @license ISC
  * @module rorybot
  * @fileoverview

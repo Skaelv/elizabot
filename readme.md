@@ -1,30 +1,30 @@
-# Rory: Catch content style guide violations
+# rorybot: Catch content style guide violations
 
-**Rory** finds style errors by comparing input text against a set of incorrect terms in the [retext-styleguide](https://github.com/Shopify/retext-styleguide) repo. **Rory** explains why your word choices are incorrect according to the Shopify [content](https://styleguide.myshopify.com/content/) and [documentation](https://vault.shopify.com/Documentation/Documentation-Style-Guide) style guides (for example, "avoid anthropomorphism"), and suggests alternatives.
+**rorybot** finds style errors by comparing input text against a set of incorrect terms in the [retext-styleguide](https://github.com/Shopify/retext-styleguide) repo. **rorybot** explains why your word choices are incorrect according to the Shopify [content](https://styleguide.myshopify.com/content/) and [documentation](https://vault.shopify.com/Documentation/Documentation-Style-Guide) style guides (for example, "avoid anthropomorphism"), and suggests alternatives.
 
-![Rory logo](rorylogo.png)
+![rorybot logo](rorybotlogo.png)
 
-You can run **rory** from the command line, or install plugins for the text editors [Atom](https://github.com/Shopify/linter-rory) and [Sublime Text](https://github.com/Shopify/sublimelinter-rory) that check your text as you type.
+You can run **rorybot** from the command line, or install plugins for the text editors [Atom](https://github.com/Shopify/linter-rorybot) and [Sublime Text](https://github.com/Shopify/sublimelinter-rorybot) that check your text as you type.
 
-![Rory command line screenshot](rory-cmd-screenshot.jpg)
+![rorybot command line screenshot](rorybot-cmd-screenshot.jpg)
 
 ## Installing
 
 1. Make sure you have [**node.js**](https://nodejs.org/en/download/) installed.
 2. Open a Terminal window.
-3. Run ```$ sudo npm install --global git+ssh://git@github.com:Shopify/rory``` to install **rory**, which will also install **retext-styleguide** as a module within **rory**.
+3. Run ```$ sudo npm install --global git+ssh://git@github.com:Shopify/rorybot``` to install **rorybot**, which will also install **retext-styleguide** as a module within **rorybot**.
 
 ## Using the Atom linter
 
-Install **rory**, then see the readme for [**linter-rory**](https://github.com/Shopify/linter-rory).
+Install **rorybot**, then see the readme for [**linter-rorybot**](https://github.com/Shopify/linter-rorybot).
 
 ## Using the Sublime Text linter
 
-Install **rory**, then see the readme for [**sublimelinter-rory**](https://github.com/Shopify/sublimelinter-rory).
+Install **rorybot**, then see the readme for [**sublimelinter-rorybot**](https://github.com/Shopify/sublimelinter-rorybot).
 
 ## Using the command line
 
-You can run **rory** from the command line for extra functionality.
+You can run **rorybot** from the command line for extra functionality.
 
 ### Check a specific file
 
@@ -34,10 +34,10 @@ Say `example.md` contains the following text:
 Login to the Shopify Manual to customise the Shopify point of sale application. 
 ```
 
-Run **rory** on `example.md`:
+Run **rorybot** on `example.md`:
 
 ```sh
-$ rory example.md
+$ rorybot example.md
 ```
 
 This yields:
@@ -52,25 +52,25 @@ example.md
 ⚠ 4 warnings
 ```
 
-You can run **rory** on any text file type, including Ruby.
+You can run **rorybot** on any text file type, including Ruby.
 
 ### Check a directory
 
-When no input files are given to **rory**, it searches for markdown and text files in the current directory.
+When no input files are given to **rorybot**, it searches for markdown and text files in the current directory.
 
-If you want to search other types of files, you can use wildcards to create your **rory** command.
+If you want to search other types of files, you can use wildcards to create your **rorybot** command.
 
 To search all Ruby files within your current directory, for example, run:
 
 ```sh
-$ rory *.rb
+$ rorybot *.rb
 ```
-### Write rory messages to a file
+### Write rorybot messages to a file
 
-If you want to write the results of a **rory** check to a file, use the `tee` command.
+If you want to write the results of a **rorybot** check to a file, use the `tee` command.
 
 ```sh
-$ rory *.rb | tee output.txt
+$ rorybot *.rb | tee output.txt
 ```
 
 ### Check a string
@@ -78,12 +78,12 @@ $ rory *.rb | tee output.txt
 If you want to check a string within your terminal:
 
 ```sh
-$ echo "Login to the Shopify Manual to customise colours in the Shopify point of sale application." | rory
+$ echo "Login to the Shopify Manual to customise colours in the Shopify point of sale application." | rorybot
 ```
 
 ### Help
 
-Run `$ rory --help` for more information. You can also check out Titus Wormer's [original **alex.js** application](https://github.com/wooorm/alex) for info about the API, which we haven't looked into yet.
+Run `$ rorybot --help` for more information. You can also check out Titus Wormer's [original **alex.js** application](https://github.com/wooorm/alex) for info about the API, which we haven't looked into yet.
 
 ## Contributing
 
@@ -91,14 +91,14 @@ Run `$ rory --help` for more information. You can also check out Titus Wormer's 
 
 See the readme in [**retext-styleguide**](https://github.com/Shopify/retext-styleguide).
 
-### Making changes to rory
+### Making changes to rorybot
 
 Create an issue or pull request in this repo.
 
 ### Making changes to the Atom linter
 
-See the readme for [**linter-rory**](https://github.com/Shopify/linter-rory).
+See the readme for [**linter-rorybot**](https://github.com/Shopify/linter-rorybot).
 
 ### Making changes to the Sublime Text linter
 
-See the readme for [**sublimelinter-rory**](https://github.com/Shopify/sublimelinter-rory).
+See the readme for [**sublimelinter-rorybot**](https://github.com/Shopify/sublimelinter-rorybot).
