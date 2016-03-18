@@ -20,7 +20,7 @@ var remark = require('remark');
 var retext = require('retext');
 var control = require('remark-message-control');
 var english = require('retext-english');
-var styleguide = require('retext-styleguide');
+var shopify = require('retext-shopify');
 var usage = require('retext-usage');
 var simplify = require('retext-simplify');
 var equality = require('retext-equality');
@@ -90,7 +90,7 @@ var profanitiesConfig = {
 
 var text = retext()
     .use(english)
-    .use(styleguide)
+    .use(shopify)
     .use(usage)
     .use(simplify, simplifyConfig)
     .use(equality, equalityConfig)
@@ -139,7 +139,7 @@ function alex(value, allow) {
         'name': 'alex',
         'disable': allow,
         'source': [
-            'retext-styleguide',
+            'retext-shopify',
         ]
     }));
 }
