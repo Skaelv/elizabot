@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * @author Titus Wormer
- * @copyright 2015 Titus Wormer
- * @license MIT
- * @module alex
- * @fileoverview CLI for alex.
+ * @author Adam Hollett and Jeremy Hanson-Finger
+ * @copyright 2016 Shopify
+ * @license ISC
+ * @module rorybot
+ * @fileoverview CLI for rorybot
  */
 
 'use strict';
@@ -84,7 +84,7 @@ notifier({
 
 var cli = meow({
     'help': [
-        'Usage:  rory [<file> | <dir> ...] [-w, --why] [-t, --text]',
+        'Usage:  rorybot [<file> | <dir> ...] [-w, --why] [-t, --text]',
         '',
         'Options:',
         '',
@@ -96,9 +96,9 @@ var cli = meow({
         'files in the current directory, `doc`, and `docs`.',
         '',
         'Examples',
-        '  $ echo "His network looks good" | rory',
-        '  $ rory *.md !example.md',
-        '  $ rory'
+        '  $ echo "His network looks good" | rorybot',
+        '  $ rorybot *.md !example.md',
+        '  $ rorybot'
     ]
 });
 

@@ -1,18 +1,18 @@
 {
-  "name": "rory",
+  "name": "rorybot",
   "version": "0.1.0",
   "description": "Catch writing that doesn't follow style guide rules",
-  "license": "UNLICENSED",
+  "license": "ISC",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Shopify/rory"
+    "url": "https://github.com/Shopify/rorybot"
   },
-  "bugs": "https://github.com/Shopify/rory/issues",
+  "bugs": "https://github.com/Shopify/rorybot/issues",
   "author": {
-    "name": "Titus Wormer",
-    "email": "tituswormer@gmail.com",
-    "url": "http://wooorm.com"
+    "name": "Adam Hollett and Jeremy Hanson-Finger",
+    "email": "docsteam@shopify.com",
+    "url": "http://www.shopify.com"
   },
   "bin": "cli.js",
   "engines": {

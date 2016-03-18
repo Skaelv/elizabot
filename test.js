@@ -1,9 +1,9 @@
 /**
- * @author Titus Wormer
- * @copyright 2015 Titus Wormer
- * @license MIT
- * @module alex:test
- * @fileoverview Test suite for alex.
+ * @author Adam Hollett and Jeremy Hanson-Finger
+ * @copyright 2016 Shopify
+ * @license ISC
+ * @module rorybot:test
+ * @fileoverview Test suite for rorybot.
  */
 
 'use strict';
