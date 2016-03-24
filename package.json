@@ -1,6 +1,6 @@
 {
   "name": "rorybot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Catch writing that doesn't follow Shopify style guide rules",
   "license": "ISC",
   "homepage": "https://github.com/Shopify/rorybot",
