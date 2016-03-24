@@ -1,19 +1,33 @@
 {
   "name": "rorybot",
-  "version": "0.1.0",
-  "description": "Catch writing that doesn't follow style guide rules",
+  "version": "1.0.0",
+  "description": "Catch writing that doesn't follow Shopify style guide rules",
   "license": "ISC",
-  "private": true,
+  "homepage": "https://github.com/Shopify/rorybot",
   "repository": {
     "type": "git",
     "url": "https://github.com/Shopify/rorybot"
   },
   "bugs": "https://github.com/Shopify/rorybot/issues",
   "author": {
-    "name": "Adam Hollett and Jeremy Hanson-Finger",
-    "email": "docsteam@shopify.com",
+    "name": "Adam Hollett",
+    "email": "adam.hollett@shopify.com",
     "url": "http://www.shopify.com"
   },
+  "contributors": [
+    {
+      "name" : "Jeremy Hanson-Finger",
+      "email" : "jeremy.hansonfinger@shopify.com"
+    },
+    {
+      "name" : "Adam Hollett",
+      "email" : "adam.hollett@shopify.com"
+    },
+    {
+      "name" : "Zachary Kain",
+      "email" : "zachary.kain@shopify.com"
+    }
+  ],
   "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"
@@ -34,8 +48,8 @@
     "remark-retext": "^1.1.0",
     "retext": "^1.0.0",
     "retext-english": "^1.0.0",
-    "retext-shopify": "git+ssh://git@github.com:Shopify/retext-shopify.git",
-    "retext-usage": "git+ssh://git@github.com:admhlt/retext-usage.git",
+    "retext-shopify": "https://github.com/Shopify/retext-shopify.git",
+    "retext-usage": "https://github.com/admhlt/retext-usage.git",
     "retext-simplify": "^1.1.0",
     "retext-equality": "^2.0.0",
     "retext-profanities": "^1.0.0",

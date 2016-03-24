@@ -11,5 +11,5 @@ expected to happen.
 For feature requests, provide what problem should be solved and how it should
 be solved.
 
-If you think you can solve the bug or implement the feature yourself, let me
-know, I’d love to help.
+If you think you can solve the bug or implement the feature yourself, let us
+know, we'd love to help.
