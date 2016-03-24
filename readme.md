@@ -1,18 +1,23 @@
-# rorybot: Catch content style guide violations
+# Rorybot: Catch content style guide violations
 
-**rorybot** finds style errors by comparing input text against a set of incorrect terms in the [retext-shopify](https://github.com/Shopify/retext-shopify) repo. **rorybot** explains why your word choices are incorrect according to the Shopify content and documentation style guides (for example, "avoid anthropomorphism"), and suggests alternatives.
+**Rorybot** finds style errors by comparing input text against a set of incorrect terms in the [retext-shopify](https://github.com/Shopify/retext-shopify) repo. **Rorybot** explains why your word choices are incorrect according to the Shopify content and documentation style guides (for example, "avoid anthropomorphism"), and suggests alternatives.
 
 ![rorybot logo](rorybotlogo.png)
 
 You can run **rorybot** from the command line, or install plugins for the text editors [Atom](https://github.com/Shopify/linter-rorybot) and [Sublime Text](https://github.com/Shopify/sublimelinter-rorybot) that check your text as you type.
 
-![rorybot command line screenshot](rorybot-cmd-screenshot.jpg)
+![rorybot command line screenshot](rorybot-cmd-screenshot.png)
 
 ## Installing
 
 1. Make sure you have [**node.js**](https://nodejs.org/en/download/) installed.
 2. Open a Terminal window.
-3. Run ```$ npm install rorybot --global``` to install **rorybot**, which will also install **retext-shopify** as a module within **rorybot**.
+3. Run ```npm install rorybot --global``` to install **rorybot**, which will also install **retext-shopify** as a module within **rorybot**.
+
+## Updating
+
+1. Open a Terminal window.
+2. Run ```npm install rorybot --global``` to install **rorybot**, which will also install **retext-shopify** as a module within **rorybot**.
 
 ## Using the Atom linter
 
@@ -37,19 +42,19 @@ Login to the Shopify Manual to customise the Shopify point of sale application.
 Run **rorybot** on `example.md`:
 
 ```sh
-$ rorybot example.md
+rorybot example.md
 ```
 
 This yields:
 
 ```txt
 example.md
-    1:1-1:6  warning  `Login to` violates Shopify style: 'login is a noun, not a verb.' Use `Log into`.              login-to
-  1:14-1:21  warning  `Shopify Manual` violates Shopify style: 'incorrect branded name.' Use `Shopify Help Center`.  help-centre
-  1:32-1:41  warning  `customise` violates Shopify style: 'write with American spelling.' Use `customize`.           customise
-  1:57-1:64  warning  `Shopify point of sale` violates Shopify style: 'incorrect branded name.' Use `Shopify POS`.   Shopify-point of sale
+1:1-1:9    warning  “Login to” is not Shopify style. Use “log into” instead. (Login is a noun, not a verb.)              login to
+1:14-1:28  warning  “Shopify Manual” is not Shopify style. Use “Shopify Help Center” instead. (Incorrect branded name.)  shopify manual
+1:32-1:41  warning  “customise” is not Shopify style. Use “customize” instead. (Use American spelling.)                  customise
+1:46-1:67  warning  “Shopify point of sale” is not Shopify style. Use “Shopify POS” instead. (Incorrect branded name.)   shopify point of sale
 
-⚠ 4 warnings
+⚠ 4 warnings 
 ```
 
 You can run **rorybot** on any text file type, including Ruby.
@@ -63,14 +68,14 @@ If you want to search other types of files, you can use wildcards to create your
 To search all Ruby files within your current directory, for example, run:
 
 ```sh
-$ rorybot *.rb
+rorybot *.rb
 ```
 ### Write rorybot messages to a file
 
 If you want to write the results of a **rorybot** check to a file, use the `tee` command.
 
 ```sh
-$ rorybot *.rb | tee output.txt
+rorybot *.rb | tee output.txt
 ```
 
 ### Check a string
@@ -78,7 +83,7 @@ $ rorybot *.rb | tee output.txt
 If you want to check a string within your terminal:
 
 ```sh
-$ echo "Login to the Shopify Manual to customise colours in the Shopify point of sale application." | rorybot
+echo "Login to the Shopify Manual to customise colours in the Shopify point of sale application." | rorybot
 ```
 
 ### Help
