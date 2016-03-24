@@ -1,6 +1,6 @@
 # Rorybot: Catch content style guide violations
 
-**Rorybot** finds style errors by comparing input text against a set of incorrect terms in the [retext-shopify](https://github.com/Shopify/retext-shopify) repo. **Rorybot** explains why your word choices are incorrect according to the Shopify content and documentation style guides (for example, "avoid anthropomorphism"), and suggests alternatives.
+**Rorybot** finds style errors by comparing input text against a set of incorrect terms in the [**retext-shopify**](https://github.com/Shopify/retext-shopify) repo. **Rorybot** explains why your word choices are incorrect according to the Shopify content and documentation style guides (for example, "avoid anthropomorphism"), and suggests alternatives.
 
 ![rorybot logo](rorybotlogo.png)
 
@@ -88,7 +88,7 @@ echo "Login to the Shopify Manual to customise colours in the Shopify point of s
 
 ### Help
 
-Run `$ rorybot --help` for more information. You can also check out Titus Wormer's [original **alex.js** application](https://github.com/wooorm/alex) for info about the API, which we haven't looked into yet.
+Run `rorybot --help` for more information. You can also check out Titus Wormer's [original alex.js application](https://github.com/wooorm/alex) for info about the API, which we haven't looked into yet.
 
 ## Contributing
 
