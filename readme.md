@@ -1,6 +1,6 @@
 # rorybot: Catch content style guide violations
 
-**rorybot** finds style errors by comparing input text against a set of incorrect terms in the [retext-shopify](https://github.com/Shopify/retext-shopify) repo. **rorybot** explains why your word choices are incorrect according to the Shopify [content](https://styleguide.myshopify.com/content/) and [documentation](https://vault.shopify.com/Documentation/Documentation-Style-Guide) style guides (for example, "avoid anthropomorphism"), and suggests alternatives.
+**rorybot** finds style errors by comparing input text against a set of incorrect terms in the [retext-shopify](https://github.com/Shopify/retext-shopify) repo. **rorybot** explains why your word choices are incorrect according to the Shopify content and documentation style guides (for example, "avoid anthropomorphism"), and suggests alternatives.
 
 ![rorybot logo](rorybotlogo.png)
 
@@ -12,7 +12,7 @@ You can run **rorybot** from the command line, or install plugins for the text e
 
 1. Make sure you have [**node.js**](https://nodejs.org/en/download/) installed.
 2. Open a Terminal window.
-3. Run ```$ sudo npm install --global git+ssh://git@github.com:Shopify/rorybot``` to install **rorybot**, which will also install **retext-shopify** as a module within **rorybot**.
+3. Run ```$ npm install rorybot``` to install **rorybot**, which will also install **retext-shopify** as a module within **rorybot**.
 
 ## Using the Atom linter
 
