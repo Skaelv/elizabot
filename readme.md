@@ -12,12 +12,12 @@ You can run **rorybot** from the command line, or install plugins for the text e
 
 1. Make sure you have [**node.js**](https://nodejs.org/en/download/) installed.
 2. Open a Terminal window.
-3. Run ```npm install -g rorybot`` to install **rorybot**, which will also install **retext-shopify** as a module within **rorybot**.
+3. Run `npm install -g rorybot` to install **rorybot**, which will also install **retext-shopify** as a module within **rorybot**.
 
 ## Updating
 
 1. Open a Terminal window.
-2. Run ```npm update -g rorybot``` to update **rorybot**, which will also update **retext-shopify**.
+2. Run `npm update -g rorybot` to update **rorybot**, which will also update **retext-shopify**.
 
 ## Using the Atom linter
 
