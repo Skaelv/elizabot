@@ -1,6 +1,6 @@
 {
   "name": "rorybot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Catch writing that doesn't follow Shopify style guide rules",
   "license": "ISC",
   "homepage": "https://github.com/Shopify/rorybot",
@@ -16,16 +16,16 @@
   },
   "contributors": [
     {
-      "name" : "Jeremy Hanson-Finger",
-      "email" : "jeremy.hansonfinger@shopify.com"
+      "name": "Jeremy Hanson-Finger",
+      "email": "jeremy.hansonfinger@shopify.com"
     },
     {
-      "name" : "Adam Hollett",
-      "email" : "adam.hollett@shopify.com"
+      "name": "Adam Hollett",
+      "email": "adam.hollett@shopify.com"
     },
     {
-      "name" : "Zachary Kain",
-      "email" : "zachary.kain@shopify.com"
+      "name": "Zachary Kain",
+      "email": "zachary.kain@shopify.com"
     }
   ],
   "bin": "cli.js",
