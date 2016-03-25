@@ -92,18 +92,18 @@ Run `rorybot --help` for more information. You can also check out Titus Wormer's
 
 ## Contributing
 
-### Adding rules
+### Add rules
 
 See the readme in [**retext-shopify**](https://github.com/Shopify/retext-shopify).
 
-### Making changes to rorybot
+### Make changes to rorybot
 
 Create an issue or pull request in this repo.
 
-### Making changes to the Atom linter
+### Make changes to the Atom linter
 
 See the readme for [**linter-rorybot**](https://github.com/Shopify/linter-rorybot).
 
-### Making changes to the Sublime Text linter
+### Make changes to the Sublime Text linter
 
 See the readme for [**sublimelinter-rorybot**](https://github.com/Shopify/sublimelinter-rorybot).
