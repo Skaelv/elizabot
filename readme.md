@@ -86,7 +86,7 @@ If you want to check a string within your terminal:
 echo "Login to the Shopify Manual to customise colours in the Shopify point of sale application." | rorybot
 ```
 
-### Help
+### Get help
 
 Run `rorybot --help` for more information. You can also check out Titus Wormer's [original alex.js application](https://github.com/wooorm/alex) for info about the API, which we haven't looked into yet.
 
