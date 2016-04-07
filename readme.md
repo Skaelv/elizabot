@@ -70,6 +70,13 @@ To search all Ruby files within your current directory, for example, run:
 ```sh
 rorybot *.rb
 ```
+
+To search all Ruby files _recursively_ within your current directory, run:
+
+```sh
+rorybot **/*.rb
+```
+
 ### Write rorybot messages to a file
 
 If you want to write the results of a **rorybot** check to a file, use the `tee` command.
