@@ -48,7 +48,7 @@
     "remark-retext": "^1.1.0",
     "retext": "^1.0.0",
     "retext-english": "^1.0.0",
-    "retext-shopify": "https://github.com/Shopify/retext-shopify.git",
+    "retext-shopify": "../retext-shopify",
     "retext-usage": "https://github.com/admhlt/retext-usage.git",
     "retext-simplify": "^1.1.0",
     "retext-equality": "^2.0.0",
