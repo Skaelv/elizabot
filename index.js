@@ -33,7 +33,7 @@ var sort = require('vfile-sort');
  */
 
 var simplifyConfig = {
-    ignore: [
+    'ignore': [
         'address', // customer info
         'adjustment', // change does not have the same connotation
         'approximate', // about does not have the same connotation
@@ -72,16 +72,16 @@ var simplifyConfig = {
 };
 
 var equalityConfig = {
-   ignore: [
+    'ignore': [
        'disabled', // technical
        'host' // technical
-   ]
+    ]
 };
 
 var profanitiesConfig = {
-   ignore: [
+    'ignore': [
        'deposit', // money-related
-       ]
+    ]
 };
 
 /*
