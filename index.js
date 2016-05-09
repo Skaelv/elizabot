@@ -1,7 +1,7 @@
 /**
  * @author Adam Hollett and Jeremy Hanson-Finger
  * @copyright 2016 Shopify
- * @license ISC
+ * @license MIT
  * @module rorybot
  * @fileoverview
  *   Catch writing that doesn't follow style guide rules

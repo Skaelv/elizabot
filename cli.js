@@ -2,7 +2,7 @@
 /**
  * @author Adam Hollett and Jeremy Hanson-Finger
  * @copyright 2016 Shopify
- * @license ISC
+ * @license MIT
  * @module rorybot
  * @fileoverview CLI for rorybot
  */
