@@ -14,6 +14,8 @@ You can run **rorybot** from the command line, or install plugins for the text e
 2. Open a Terminal window.
 3. Run `npm install -g rorybot` to install **rorybot**, which will also install **retext-shopify** as a module within **rorybot**.
 
+If you run into a permissions error, run `sudo npm install -g rorybot` instead.
+
 ## Updating
 
 1. Open a Terminal window.
