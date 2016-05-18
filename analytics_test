@@ -19,11 +19,13 @@ puts "Processing #{file_type} files recursively in #{Dir.pwd} with Rorybot"
 
 input_file = File.read('rorybot_output.txt')
 output_file = File.open('frequency.csv', 'w+')
-warning_message = /(?:warning\s{2,}?)(.+?)(?=\s{2,})/
+warning_message = /^.*warning  (.*)  .*$/
 frequency = Hash.new(0)
 
 puts 'Counting warning messages'
-input_file.scan(warning_message).map { |w| frequency[w] + 1 }
+input_file.scan(warning_message) do |word|
+  frequency[word] += 1
+end
 
 puts 'Writing result to frequency.csv'
 frequency.each do |key, value|
