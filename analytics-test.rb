@@ -12,15 +12,13 @@ warning_message = /(?:warning\s{2,}?)(.+?)(?=\s{2,})/
 frequency = Hash.new(0)
 
 puts "Counting warning messages"
-input_file.read.scan(warning_message) do |word|
-  frequency[word] = frequency[word] + 1
-end
+input_file.read.scan(warning_message).map { |w| frequency[w] + 1 }
 
 puts "Writing result to frequency.csv"
 frequency.each do |key, value|
   kv = "#{key}, #{value}"
   kv.encode("UTF-8")
-  output_file.puts kv.gsub("[", "").gsub("]", "")
+  output_file.puts(kv.tr('[', '').tr(']', ''))
 end
 
 puts "Deleting temporary files"
