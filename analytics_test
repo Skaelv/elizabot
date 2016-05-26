@@ -3,17 +3,6 @@
 require 'fileutils'
 require 'mkmf'
 
-def which(cmd)
-  exts = ENV['PATHEXT'] ? ENV['PATHEXT'].split(';') : ['']
-  ENV['PATH'].split(File::PATH_SEPARATOR).each do |path|
-    exts.each do |ext|
-      exe = File.join(path, "#{cmd}#{ext}")
-      return exe if File.executable?(exe) && !File.directory?(exe)
-    end
-  end
-  nil
-end
-
 ruby_installed = find_executable 'node'
 rorybot_installed = find_executable 'rorybot'
 
@@ -60,10 +49,11 @@ unless ruby_installed.nil? || rorybot_installed.nil?
 
   puts 'Deleting temporary files'
   FileUtils.rm('rorybot_output.txt')
+  FileUtils.rm('mkmf.log')
 
   puts 'Use Google Sheets or Numbers to open frequency.csv for further
    processing'
 
-  `open .`
+  `read -p "Press return to close"`
 
 end
