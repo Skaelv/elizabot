@@ -54,6 +54,7 @@ unless ruby_installed.nil? || rorybot_installed.nil?
   puts 'Use Google Sheets or Numbers to open frequency.csv for further
    processing'
 
-  `read -p "Press return to close"`
+   `exit 0`
+   `open .`
 
 end
