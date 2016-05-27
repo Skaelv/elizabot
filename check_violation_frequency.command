@@ -2,4 +2,4 @@
 
 cd -- "$(dirname "$0")"
 
-ruby analytics_test
+ruby rorybot_analyze
