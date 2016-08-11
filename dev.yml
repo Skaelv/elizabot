@@ -4,3 +4,7 @@ up:
 - ruby: 2.3.0
 - node:
     version: v5.7.0
+
+packages:
+  - git@github.com:Shopify/dev-shopify.git
+
