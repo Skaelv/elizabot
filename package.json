@@ -1,6 +1,6 @@
 {
-  "name": "elizabot",
-  "version": "1.0.0",
+  "name": "eliza-bot",
+  "version": "1.0.2",
   "description": "Catch writing that doesn't follow Intercom style guide rules",
   "license": "MIT",
   "homepage": "https://github.com/skaelv/elizabot",
