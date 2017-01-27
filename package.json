@@ -1,6 +1,6 @@
 {
-  "name": "elizabot",
-  "version": "1.0.0",
+  "name": "eliza-bot",
+  "version": "1.0.2",
   "description": "Catch writing that doesn't follow Intercom style guide rules",
   "license": "MIT",
   "homepage": "https://github.com/skaelv/elizabot",
@@ -52,7 +52,7 @@
     "remark-retext": "^1.1.0",
     "retext": "^1.0.0",
     "retext-english": "^1.0.0",
-    "ic-retext": "https://github.com/skaelv/ic-retext.git",
+    "ic-retext": "0.1.0",
     "retext-usage": "https://github.com/admhlt/retext-usage.git",
     "retext-simplify": "^1.1.0",
     "retext-equality": "^2.0.0",
